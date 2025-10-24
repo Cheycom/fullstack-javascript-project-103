@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Calculadora de diferencias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheycom/fullstack-javascript-project-103.git"
+  },
+  "author": "John Jairo Chacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheycom/fullstack-javascript-project-103/issues"
+  },
+  "homepage": "https://github.com/cheycom/fullstack-javascript-project-103#readme",
+  "dependencies": {
+    "commander": "^14.0.1"
+  }
+}
