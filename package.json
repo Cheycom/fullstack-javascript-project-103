@@ -5,7 +5,7 @@
   "description": "Calculadora de diferencias",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx --NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "dependencies": {
     "commander": "^14.0.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0"
   }
 }
